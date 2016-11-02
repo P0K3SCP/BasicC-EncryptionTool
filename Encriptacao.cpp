@@ -9,11 +9,27 @@ int main()
 
     // Fim da tabela de encriptacao
 
+    printf("Qual o tamanho do que quer encriptar?\n");
+    int tamanho;
+    scanf("%d", &tamanho);
+
     printf("Introduza o que quer encriptar\n\n");
 
     // Parte que vai fazer a leitura da string
 
+    char input[][tamanho]={};
 
+    int x = 1;
+
+    do
+    {
+        scanf("%1c", &input[x]);
+
+        x++;
+
+    } while(x<= tamanho);
+
+printf("%c", input[1]);
 
     // Fim da parte que vai fazer a leitura da string
 
