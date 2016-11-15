@@ -12,7 +12,7 @@ int run=1;
 	
 	b="aabcdefghijklmnopqrstuvwxyz";
 	cout<< ">Enter your message: ";
-	cin.ignore()
+	cin.ignore();
 	getline(cin, m);
 	d=m.length();
 	cout << "\n\n\n>Enter the rot number: ";
